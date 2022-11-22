@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+html {font-size: 62.5%;}/* font-size:10px */
+
+/* 여백초기화 */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+/* 테이블선 중첩여부지정 가로크기 100% */
+table { border-collapse: collapse; width: 100%; }
+/* 목록요소에 숫자 불릿기호 없애기 */
+ol,ul { list-style: none; }
+/* 링크에 밑줄 없애기, 글자색 기본색 지정 */
+a { text-decoration: none;  color: black; }
+/* 글자 기울임 설정 */
+address { font-style: normal; }
+
+fieldset,input,textarea,select {outline: none; appearance: none; border: 0;}
+
+legend { display: none; }
+
